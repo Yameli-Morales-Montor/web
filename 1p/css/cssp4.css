@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(168, 168, 222);
+    background-color: rgb(139, 214, 225);
+    text-transform: uppercase;
+}
+body{
+    background-color: #e5e5f7;
+opacity: 0.75;
+background-image:  radial-gradient(#513564 0.8500000000000001px, transparent 0.8500000000000001px), radial-gradient(#513564 0.8500000000000001px, #e5e5f7 0.8500000000000001px);
+background-size: 34px 34px;
+background-position: 0 0,17px 17px;
+}
+
+.areaBonita {
+    
+    background-color: #a67fa4;
+    color: #10204f;
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.modificacion{
+    background-color: #7c999f;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    filter: blur(29);
+    font-size: 19px;
+
+    
+}
+
+
+
+.title{
+margin: auto;
+width: 90%;
+max-width: 400px;
+
+}
+label {
+    padding-right: 10px;
+}
