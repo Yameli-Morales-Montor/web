@@ -20,7 +20,7 @@
             padding-top: 40px;
             font-size: 24px;
          }
-         .tarjeta .cueerpo{
+         .tarjeta .cuerpo{
             text-align: justify;
             font-size: 18px;
             padding: 10px;
@@ -51,7 +51,7 @@
     color: brown;
 }
 .colorvioleta{
-    background-color: rgb(10, 87, 87);
+    background-color: rgb(107, 87, 87);
     color: rgb(206, 147, 206);
 }
 .fondoazulclaro{
