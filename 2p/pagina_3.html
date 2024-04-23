@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendario de Eventos</title>
+<link rel="stylesheet" href="css/">
+</head>
+<body>
+
+<div class="cuadro">
+  <a href="#home">Home</a>
+  <a href="#format">Format</a>
+  <a href="#review">Review</a>
+</div>
+
+<div class="detalles">
+  <label for="event-name">Nombre del evento</label>
+  <input type="text" id="event-name" name="event-name">
+
+  <label for="calendar">Calendario</label>
+  <select id="calendar" name="calendar">
+    <option value="microsoft">Microsoft</option>
+    <!-- Otras opciones de calendario -->
+  </select>
+
+  <label for="location">Ubicación</label>
+  <input type="text" id="location" name="location">
+
+  <label for="start-time">Inicio</label>
+  <input type="datetime-local" id="start-time" name="start-time">
+
+  <label for="end-time">Fin</label>
+  <input type="datetime-local" id="end-time" name="end-time">
+
+  <label for="all-day">
+    <input type="checkbox" id="all-day" name="all-day">
+    Todo el día
+  </label>
+</div>
+
+</body>
+</html>
