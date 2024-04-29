@@ -5,7 +5,7 @@ body{
     justify-content: center;
     
 }
-.completo{
+.todo{
     
     position: relative;
     max-width: 590px;
@@ -18,18 +18,18 @@ body{
     right: 300px;
     
 }
-.encabezado h6{
+.cabeza h6{
     position: absolute;
     font-size: 15px; 
      
 }
-.encabezado i{
+.cabeza i{
     position: relative;
     display: inline-block;
     width: 2.5em;
     left: 450px;
 }
-.completo .body{
+.todo .cuerpo{
     position: relative;
     min-height: 600px;
     margin-right: 100px;
@@ -38,42 +38,42 @@ body{
     background-color: rgb(240, 237, 237);
     
 }
-.completo .menu{
+.todo .menu{
     background-color: black;
     max-width: 40px;
     min-height: 480px;
     
 }
-.completo .menu-superior {
+.todo .menu-superior {
     background-color: red;
     max-width: 40px ;
     min-height: 45px;
 }
-.completo .menu-superior i{
+.todo .menu-superior i{
     font-size: 25px;
     color: white;
     position: relative;
     margin-left: 1vh;
 }
-.completo .body .menu i{
+.todo .cuerpo .menu i{
 
     display: center;
     color: white;
     font-size: 30px;
     margin-left: 1vh;
 }
-.completo .menu-inferior{
+.todo .menu-inferior{
     background-color: red;
     max-width: 40px;
     min-height: 45px;
 }
-.completo .menu-inferior i{
+.todo .menu-inferior i{
     display: center;
     color: white;
     font-size: 30px;
     margin-left: 1vh;
 }
-.completo .body .cuerpo-centro{
+.todo .cuerpo .cuerpo-centro{
     position: relative;
     max-width: 544px;
     width: 100%;
@@ -91,7 +91,7 @@ body{
     margin-top: -35px;
     color: black;
 }
-.completo .body .cuerpo-centro i{
+.todo .cuerpo .cuerpo-centro i{
     font-size: 30px;
     color: rgb(0, 0, 0);
     position: relative;
@@ -100,7 +100,7 @@ body{
     margin-left: -1vh;
     margin-top: -10vh;  
 }
-.completo .body .cuerpo-centro h6{
+.todo .cuerpo .cuerpo-centro h6{
     display: inline;
     position: relative;
     word-spacing: 20px;
@@ -108,11 +108,11 @@ body{
     margin-top: 40px;
 
 }      
-.completo .body .cuerpo-2 {
+.todo .cuerpo .cuerpo-2 {
     position: relative;
     left: 50px;
 }  
-.completo .body .cuerpo-2{
+.todo .cuerpo .cuerpo-2{
     font-size: 15px;
 }    
 .button{
